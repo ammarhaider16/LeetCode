@@ -5,7 +5,11 @@ class Solution {
         System.out.println(braks.size());
 
         for (int i = 0; i < s.length(); i++) {
-            
+            if (braks.size() == 0) {
+                braks.push(s.charAt(i));
+                continue;
+            }
+
             Character reversed;
             if (s.charAt(i) == ')')
                 reversed = '(';
@@ -14,20 +18,18 @@ class Solution {
             else
                 reversed = '{';
 
-            if (braks.size() > 0) {
-
-                if ((s.charAt(i) == ')' || s.charAt(i) == ']' || s.charAt(i) == '}') && (char) braks.peek() != reversed)
-                    return false;
-                else if (s.charAt(i) == ')' || s.charAt(i) == ']' || s.charAt(i) == '}') {
-                    braks.pop();
-                } else
-                    braks.push(s.charAt(i));
+            if ((s.charAt(i) == ')' || s.charAt(i) == ']' || s.charAt(i) == '}') && (char) braks.peek() != reversed)
+                return false;
+            else if (s.charAt(i) == ')' || s.charAt(i) == ']' || s.charAt(i) == '}') {
+                braks.pop();
             } else
                 braks.push(s.charAt(i));
+
         }
 
         if (braks.size() != 0)
             return false;
 
         return true;
-    }}
+    }    
+}
