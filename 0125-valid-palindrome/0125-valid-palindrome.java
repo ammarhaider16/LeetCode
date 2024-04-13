@@ -2,17 +2,24 @@ class Solution {
 
     public boolean isPalindrome(String s) {
         
-        // string processing
-        String processed = "";
-        for (int i = 0; i<s.length();i++) {
-            if ((s.charAt(i) >= '0' && s.charAt(i) <= '9') || (s.charAt(i) >= 'a' && s.charAt(i) <= 'z') || (s.charAt(i) >= 'A' && s.charAt(i) <= 'Z')) processed+=s.charAt(i);
-        }
-        processed = processed.toLowerCase();
-        System.out.println(processed);
+        // Two-Pointer Approach
+        int start = 0;
+        int end = s.length() - 1;
 
-        // loop for palindrome check
-        for (int i = 0; i<processed.length()/2; i++) {
-            if (processed.charAt(i) != processed.charAt(processed.length() - 1 - i)) return false;
+        for (start = 0; start<end; start++, end--) {
+
+            if (!((s.charAt(start) >= '0' && s.charAt(start) <= '9') || (s.charAt(start) >= 'a' && s.charAt(start) <= 'z') || (s.charAt(start) >= 'A' && s.charAt(start) <= 'Z'))) {
+                end++;
+                continue;
+            }
+
+            if (!((s.charAt(end) >= '0' && s.charAt(end) <= '9') || (s.charAt(end) >= 'a' && s.charAt(end) <= 'z') || (s.charAt(end) >= 'A' && s.charAt(end) <= 'Z'))) {
+                start--;
+                continue;
+            }
+
+            if (!((""+s.charAt(start)).toLowerCase().equals((""+s.charAt(end)).toLowerCase()))) return false;
+
         }
         
         return true;
