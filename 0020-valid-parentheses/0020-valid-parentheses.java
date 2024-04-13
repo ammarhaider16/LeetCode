@@ -5,6 +5,7 @@ class Solution {
         System.out.println(braks.size());
 
         for (int i = 0; i < s.length(); i++) {
+            
             Character reversed;
             if (s.charAt(i) == ')')
                 reversed = '(';
@@ -25,8 +26,8 @@ class Solution {
                 braks.push(s.charAt(i));
         }
 
-        if (braks.size() != 0) return false;
+        if (braks.size() != 0)
+            return false;
 
         return true;
-    }
-}
+    }}
