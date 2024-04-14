@@ -11,14 +11,18 @@
  */
 public class Solution {
         public boolean hasCycle(ListNode head) {
-        if (head==null) return false;
-        Map nodes = new HashMap<ListNode, Integer>();
-        while (head.next != null) {
-            if (nodes.containsKey(head.next))
-                return true;
-            else
-                nodes.put(head, 0);
-            head = head.next;
+        if (head == null)
+            return false;
+
+        
+        ListNode slowPointer = head;
+        ListNode fastPointer = head;
+        
+        if (head.next != null && head.next.next != null)
+        while (fastPointer!= null && fastPointer.next != null && fastPointer.next.next != null) {
+            slowPointer = slowPointer.next;
+            fastPointer = fastPointer.next.next;
+            if (slowPointer == fastPointer) return true; 
         }
         return false;
     }
