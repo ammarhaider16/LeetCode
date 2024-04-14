@@ -3,17 +3,18 @@ class Solution {
         if (s.length() != t.length())
             return false;
 
-        Map<Character, ArrayList<Integer>> letters = new HashMap<Character, ArrayList<Integer>>();
+        Map<Character, Integer> letters = new HashMap<Character, Integer>();
         for (int i = 0; i < s.length(); i++) {
             if ((!letters.containsKey(s.charAt(i))))
-                letters.put((Character) s.charAt(i), new ArrayList<Integer>(Arrays.asList(i)));
+                letters.put((Character) s.charAt(i), 1);
             else
-                (letters.get(s.charAt(i))).add(i);
+                letters.put(s.charAt(i), letters.get((s.charAt(i))) + 1);
         }
 
         for (int i = 0; i < t.length(); i++) {
-            if (letters.get(t.charAt(i))!=null && letters.get(t.charAt(i)).size()>0)
-                letters.get(t.charAt(i)).remove(0);
+            System.out.println(letters);
+            if (letters.get(t.charAt(i)) != null && (int) letters.get(t.charAt(i)) > 0)
+                letters.put(t.charAt(i), (int) letters.get((t.charAt(i))) - 1);
             else
                 return false;
         }
