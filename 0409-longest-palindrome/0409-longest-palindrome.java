@@ -3,10 +3,12 @@ class Solution {
         HashMap<Character, Integer> letters = new HashMap<Character, Integer>();
 
         for (int i = 0; i < s.length(); i++) {
-            if (!letters.containsKey(s.charAt(i))) {
-                letters.put(s.charAt(i), 1);
+            Character c = s.charAt(i);
+            Integer n = letters.get(c);
+            if (n==null) {
+                letters.put(c, 1);
             } else {
-                letters.put(s.charAt(i), letters.get(s.charAt(i)) + 1);
+                letters.put(c, n + 1);
             }
         }
 
@@ -17,7 +19,7 @@ class Solution {
             int freq = letters.get(c);
             if (freq % 2 == 0)
                 evenCount += freq;
-            else if (freq % 2 != 0) {
+            else {
                 evenCount += freq - 1;
                 add1 = true;
             }
