@@ -1,13 +1,11 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-
         for (int i = 0; i < 9; i++) {
             HashSet<Integer> rowNums = new HashSet<>();
             for (int j = 0; j < 9; j++) {
                 if (board[j][i] != '.') {
                     int ch = board[j][i] - '0';
                     if (rowNums.contains(ch)) {
-                        System.out.println("repetiton in rows");
                         return false;
                     } else
                         rowNums.add(ch);
@@ -20,11 +18,9 @@ class Solution {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] != '.') {
                     int ch = board[i][j] - '0';
-                    if (colNums.contains(ch)){
-                        System.out.println("repetiton in cols");
+                    if (colNums.contains(ch)) {
                         return false;
-                    }
-                    else
+                    } else
                         colNums.add(ch);
                 }
             }
@@ -42,17 +38,14 @@ class Solution {
                 for (int k = col; k < col + 3; k++) {
                     if (board[j][k] != '.') {
                         int ch = board[j][k] - '0';
-                        System.out.println(ch);
                         if (gridNums.contains(ch)) {
-                            System.out.println("repetiton in grids");
                             return false;
-                        }
-                        else
+                        } else
                             gridNums.add(ch);
                     }
                 }
             }
-                col += 3;
+            col += 3;
         }
         return true;
     }
