@@ -19,8 +19,7 @@ class Solution {
                     thisSeqLen++;
                     thisNum++;
                 }
-                if (thisSeqLen > maxSeqLen)
-                    maxSeqLen = thisSeqLen;
+                maxSeqLen = Math.max(maxSeqLen, thisSeqLen);
             }
         }
         return maxSeqLen;
