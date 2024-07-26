@@ -30,15 +30,16 @@ class Solution {
                 else {
                     List<Integer> triplet = new ArrayList<>(Arrays.asList(a, b, c));
                     Collections.sort(triplet);
-                    if (!uniques.contains(triplet)) {
-                        triplets.add(triplet);
-                        uniques.add(triplet);
-                    }
+                    uniques.add(triplet);
                     start++;
                     end--;
                 }
             }
         }
+
+        for (List<Integer> triplet : uniques)
+            triplets.add(triplet);
+
         return triplets;
     }
 }
