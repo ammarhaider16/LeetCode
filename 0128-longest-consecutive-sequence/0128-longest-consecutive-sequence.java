@@ -1,6 +1,4 @@
 class Solution {
-    // ALGORITHM: TO IDENTIFY WHETHER A NUMBER IS A START OF A SEQUENCE, CHECK IF IT HAS LEFT NEIGHBORS. IF IT DOES NOT HAVE ANY LEFT NEIGHBOURS, CHECK HOW LONG THE SEQUENCE IS!
-
     public int longestConsecutive(int[] nums) {
         if (nums.length <= 1)
             return nums.length;
@@ -13,7 +11,7 @@ class Solution {
         int maxSeqLen = 0;
 
         for (int num : nums) {
-            if (!allNums.contains(num - 1)) // if this number is a start of a sequence ...
+            if (!allNums.contains(num - 1)) 
             {
                 int thisSeqLen = 1;
                 int thisNum = num + 1;
@@ -25,7 +23,6 @@ class Solution {
                     maxSeqLen = thisSeqLen;
             }
         }
-
         return maxSeqLen;
     }
 }
