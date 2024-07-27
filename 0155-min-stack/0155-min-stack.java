@@ -1,5 +1,3 @@
-import java.util.*;
-
 class MinStack {
 
     private ArrayList<Integer> stackList;
@@ -15,9 +13,9 @@ class MinStack {
     public void push(int val) {
         stackList.add(val);
         len++;
-        if (minList.size() == 0 || val <= minList.get(minList.size() - 1)) {
+        if (minList.size() == 0 || val <= minList.get(minList.size() - 1))
             minList.add(val);
-        }
+
     }
 
     public void pop() {
