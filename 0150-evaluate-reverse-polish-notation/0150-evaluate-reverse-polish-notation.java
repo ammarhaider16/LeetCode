@@ -3,7 +3,7 @@ class Solution {
         Stack<Integer> current = new Stack<>();
         for (int i = 0; i < tokens.length; i++) {
             String c = tokens[i];
-            if (!c.equals("+") && !c.equals("-") && !c.equals("*") && !c.equals("/")) {
+            if (c.matches("-?\\d+(\\.\\d+)?")) {
                 current.push(Integer.parseInt(c));
             } else {
                 int after = current.pop();
