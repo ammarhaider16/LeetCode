@@ -12,21 +12,15 @@ class Solution {
             long totalhrs = getTotalHrs(piles, middleSpeed);
             if (totalhrs > h)
                 min = middleSpeed + 1;
-            else if (totalhrs < h) {
+            else if (totalhrs <= h) {
                 max = middleSpeed - 1;
                 k = middleSpeed;
-            } else {
-                while (middleSpeed > 1 && getTotalHrs(piles, middleSpeed - 1) == h) {
-                    middleSpeed--;
-                }
-                return middleSpeed;
             }
-
         }
         return k;
     }
 
-    public long getTotalHrs(int[] piles, long middleSpeed) {
+    public long getTotalHrs(int[] piles, int middleSpeed) {
         long totalhrs = 0;
         for (long pile : piles)
             if (pile % middleSpeed == 0)
