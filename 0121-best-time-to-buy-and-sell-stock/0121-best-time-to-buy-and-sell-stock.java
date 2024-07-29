@@ -4,9 +4,8 @@ class Solution {
         int maxProfit = 0;
         for (int i = 0; i < prices.length; i++) {
             int currProfit = prices[i] - prices[start];
-            if (currProfit > maxProfit)
-                maxProfit = currProfit;
-            else if (currProfit < 0)
+            maxProfit = Math.max(maxProfit, currProfit);
+            if (currProfit < 0)
                 start = i;
         }
         return maxProfit;
