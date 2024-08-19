@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/ammarhaider16/LeetCode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/ammarhaider16/LeetCode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/ammarhaider16/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ammarhaider16/LeetCode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Two Pointers
 |  |
 | ------- |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ammarhaider16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0496-next-greater-element-i](https://github.com/ammarhaider16/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1023-time-based-key-value-store](https://github.com/ammarhaider16/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ammarhaider16/LeetCode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Sorting
 |  |
 | ------- |
@@ -101,4 +103,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ammarhaider16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+## Counting
+|  |
+| ------- |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ammarhaider16/LeetCode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 <!---LeetCode Topics End-->
