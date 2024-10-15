@@ -6,6 +6,9 @@ class Solution(object):
         :rtype: int
         """
 
+        if (len(nums)==1):
+            return 1 if target>nums[0] else 0
+
         start = 0
         end = len(nums)-1
         smallestGreaterIndex = len(nums)-1
