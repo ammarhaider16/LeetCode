@@ -19,6 +19,8 @@ def SATBHelper(nums, S, E):
         return TreeNode(val=nums[S])
     elif (E-S==1):
         return TreeNode(val=max(nums[S],nums[E]), left=TreeNode(val=min(nums[S],nums[E])))
+    elif (E-S==2):
+        return TreeNode(val=nums[S+1], left=TreeNode(val=nums[S]), right=TreeNode(val=nums[E]))
     
     mid = (S+E) // 2
 
