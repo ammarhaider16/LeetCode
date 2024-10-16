@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/ammarhaider16/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ammarhaider16/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0278-first-bad-version](https://github.com/ammarhaider16/LeetCode/tree/master/0278-first-bad-version) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ammarhaider16/LeetCode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0367-valid-perfect-square](https://github.com/ammarhaider16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
@@ -185,4 +186,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ammarhaider16/LeetCode/tree/master/0315-count-of-smaller-numbers-after-self) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/ammarhaider16/LeetCode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
