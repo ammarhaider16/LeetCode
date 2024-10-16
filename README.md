@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ammarhaider16/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/ammarhaider16/LeetCode/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ammarhaider16/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/ammarhaider16/LeetCode/tree/master/0367-valid-perfect-square) |
+| [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
 ## Hash Table
 |  |
 | ------- |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ammarhaider16/LeetCode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0367-valid-perfect-square](https://github.com/ammarhaider16/LeetCode/tree/master/0367-valid-perfect-square) |
+| [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0792-binary-search](https://github.com/ammarhaider16/LeetCode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ammarhaider16/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/ammarhaider16/LeetCode/tree/master/1023-time-based-key-value-store) |
