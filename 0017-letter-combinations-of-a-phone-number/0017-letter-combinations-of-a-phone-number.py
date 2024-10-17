@@ -9,7 +9,7 @@ class Solution(object):
         if (len(digits)==0):
             return []
 
-        self.digitsList = list(digits)
+        self.digits = digits
         self.combinations = []
         prefix = ""
         self.helper(prefix, 0)
@@ -17,10 +17,10 @@ class Solution(object):
 
 
     def helper(self,prefix,idx):
-        if (idx == len(self.digitsList)):
+        if (idx == len(self.digits)):
             self.combinations.append(prefix)
             return
-        nextChars = self.letters[self.digitsList[idx]]
+        nextChars = self.letters[self.digits[idx]]
         for char in nextChars:
             self.helper(prefix+char, idx+1)
         return
