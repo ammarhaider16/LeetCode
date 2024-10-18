@@ -16,8 +16,13 @@ class Solution(object):
     def validateBSTHelper(self, node, maxVal, minVal):
         if node == None:
             return True
+        
+        leftSmallerThanNode = node.left.val < node.val if node.left else True
+        leftGreaterThanMinimum = node.left.val > minVal if node.left else True
+        rightGreaterThanNode = node.right.val > node.val if node.right else True
+        rightSmallerThanMaximum = node.right.val < maxVal if node.right else True
 
-        if (node.left.val < node.val if node.left else True) and (node.left.val > minVal if node.left else True) and (node.right.val > node.val if node.right else True) and (node.right.val < maxVal if node.right else True):
+        if (leftSmallerThanNode and leftGreaterThanMinimum and rightGreaterThanNode and rightSmallerThanMaximum):
             return self.validateBSTHelper(node.left, min(maxVal, node.val), minVal) and self.validateBSTHelper(node.right, maxVal, max(minVal, node.val)) 
         else:
             return False
