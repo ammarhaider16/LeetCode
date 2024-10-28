@@ -4,42 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        end = len(nums) - 1
-        return maxSubArrayHelper(nums, 0, end)
-        
-        
-def maxSubArrayHelper(nums, start, end):
-    if (start == end):
-        return nums[start]
-    middle = (start + end) // 2
-    maxLeftSum = maxSubArrayHelper(nums, start, middle)
-    maxRightSum = maxSubArrayHelper(nums, middle+1, end)
+        n = len(nums)
+        dp = [0]*len(nums)
+        dp[n-1] = nums[n-1]
+        globalMax = dp[n-1]
 
-    
-    highestLeftSumFromCenter = float('-inf')
-    currentSum = 0
-    leftPointer = middle
-    while (leftPointer>=start):
-        currentSum+=nums[leftPointer]
-        if (currentSum>highestLeftSumFromCenter):
-            highestLeftSumFromCenter = currentSum
-        leftPointer-=1
+        for i in range(n-2,-1,-1):
+            dp[i] = max(nums[i], nums[i]+dp[i+1])
+            globalMax = max(globalMax, dp[i])
 
-    highestRightSumFromCenter = float('-inf')
-    currentSum = 0
-    rightPointer = middle+1
-    while (rightPointer<=end):
-        currentSum+=nums[rightPointer]
-        if (currentSum>highestRightSumFromCenter):
-            highestRightSumFromCenter = currentSum
-        rightPointer+=1
-
-    maxCenterSum = highestLeftSumFromCenter + highestRightSumFromCenter
-
-    return max(maxCenterSum, max(maxLeftSum, maxRightSum))
-
-
-
+        return globalMax
 
 
 
