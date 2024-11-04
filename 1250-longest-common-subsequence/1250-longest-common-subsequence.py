@@ -9,12 +9,6 @@ class Solution(object):
         m = len(text2)
         dp = [[0]*(m+1) for _ in range(n+1)]
 
-        # Base cases
-        for i in range(n):
-            dp[i][m-1] = 1 if text1[i] == text2[m-1] else 0
-        for j in range(m):
-            dp[n-1][j] = 1 if text1[n-1] == text2[j] else 0
-
         for i in range(n-1,-1,-1):
             for j in range(m-1,-1,-1):
                 A = dp[i+1][j+1] + (1 if text1[i] == text2[j] else 0)
