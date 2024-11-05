@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ammarhaider16/LeetCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ammarhaider16/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ammarhaider16/LeetCode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/ammarhaider16/LeetCode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ammarhaider16/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1250-longest-common-subsequence](https://github.com/ammarhaider16/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Stack
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/ammarhaider16/LeetCode/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/ammarhaider16/LeetCode/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ammarhaider16/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0367-valid-perfect-square](https://github.com/ammarhaider16/LeetCode/tree/master/0367-valid-perfect-square) |
@@ -248,4 +250,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ammarhaider16/LeetCode/tree/master/0948-sort-an-array) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ammarhaider16/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
