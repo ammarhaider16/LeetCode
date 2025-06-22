@@ -11,22 +11,22 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-        vals = []
-        self.arrayFromBST(root, vals)
-        return self.twoSumStandard(vals, k)
-
-    def arrayFromBST(self, root, vals):
-        if root.left:
-            self.arrayFromBST(root.left, vals)
-        vals.append(root.val)
-        if root.right:
-            self.arrayFromBST(root.right, vals)
-        return
-    
-    def twoSumStandard(self, vals, target):
         differences = set()
-        for val in vals:
-            if val in differences:
+        return self.twoSumTree(root, differences, k)
+    
+    def twoSumTree(self, node, differences, target):
+        if node.left:
+            leftFound = self.twoSumTree(node.left, differences, target)
+            if leftFound:
                 return True
-            differences.add(target - val)
+
+        if node.val in differences:
+            return True
+        differences.add(target - node.val)
+               
+        if node.right:
+            rightFound = self.twoSumTree(node.right, differences, target)
+            if rightFound:
+                return True
+        
         return False
