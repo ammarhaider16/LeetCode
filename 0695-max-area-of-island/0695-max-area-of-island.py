@@ -25,10 +25,10 @@ class Solution:
             return area
 
         for point in starting_points:
-            area_from_point = area_dfs(point)
-            if area_from_point > max_area: 
-                max_area = area_from_point
-        
+            if point not in visited:
+                area_from_point = area_dfs(point)
+                if area_from_point > max_area: 
+                    max_area = area_from_point
         return max_area
 
     # Need index validation for DFS
