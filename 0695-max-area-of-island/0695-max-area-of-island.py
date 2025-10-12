@@ -1,7 +1,5 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        if not len(grid) or not len(grid[0]):
-            return 0
         n, m = len(grid), len(grid[0])
         starting_points = []
 
@@ -10,9 +8,6 @@ class Solution:
             for j in range(m):
                 if grid[i][j] == 1:
                     starting_points.append((i, j))
-                elif grid[i][j] != 0:
-                    raise ValueError("Input should contain 1s and 0s only!")
-        
         visited = set()
         max_area = 0
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
