@@ -32,8 +32,12 @@ class Solution:
                 for direction in directions:
                     neighbor = (point[0] + direction[0], point[1] + direction[1])
                     # prevent invalid indeing and verifying if this is good to proceed
-                    if neighbor[0] >= 0 and neighbor[1] >= 0 and neighbor[0] < n and neighbor[1] < m and grid[neighbor[0]][neighbor[1]] == "1":
+                    if self.is_index_valid(neighbor, n, m) and grid[neighbor[0]][neighbor[1]] == "1":
                         bfs_q.append(neighbor)
         return num_islands
 
+    def is_index_valid(self, point, n, m):
+        if point[0] >= 0 and point[1] >= 0 and point[0] < n and point[1] < m:
+            return True	
+        return False
 
