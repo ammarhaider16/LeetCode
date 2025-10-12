@@ -6,20 +6,20 @@ class Solution:
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
         def area_dfs(point):
-            if point in visited:
+            if point in visited or grid[point[0]][point[1]] != 1:
                 return 0
             visited.add(point)
             area = 1 
 
             for direction in directions:
                 neighbor = (point[0] + direction[0], point[1] + direction[1])
-                if self.validate_index(neighbor, n, m) and grid[neighbor[0]][neighbor[1]] == 1:
+                if self.validate_index(neighbor, n, m):
                     area += area_dfs(neighbor)
             return area
 
         for i in range(n):
             for j in range(m):
-                area_from_point = area_dfs((i, j)) if grid[i][j] == 1 else 0
+                area_from_point = area_dfs((i, j))
                 if area_from_point > max_area: 
                     max_area = area_from_point
         return max_area
