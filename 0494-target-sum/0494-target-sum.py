@@ -1,8 +1,5 @@
 class Solution:
     def findTargetSumWays(self, nums, target):
-        endpoint = sum(nums)
-        if abs(target) > endpoint:
-            return 0
         mem = {}
         def find_target_approaches(i, k):
             if i == 0:
