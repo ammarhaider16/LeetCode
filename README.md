@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ammarhaider16/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ammarhaider16/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/ammarhaider16/LeetCode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ammarhaider16/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0494-target-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1250-longest-common-subsequence](https://github.com/ammarhaider16/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Stack
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ammarhaider16/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/ammarhaider16/LeetCode/tree/master/0022-generate-parentheses) |
 | [0077-combinations](https://github.com/ammarhaider16/LeetCode/tree/master/0077-combinations) |
+| [0494-target-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0494-target-sum) |
 ## Binary Search
 |  |
 | ------- |
