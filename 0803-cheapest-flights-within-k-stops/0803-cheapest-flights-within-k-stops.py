@@ -1,33 +1,27 @@
 from collections import deque
 
 class Solution:
-    def findCheapestPrice(self, n, flights, src, dest, k):
-        graph = {i: {} for i in range(n)}
-        for u, v, w in flights:
-            graph[u][v] = w
-        
-        queue = deque([(src, 0, 0)])  # node, cost, stops
-        best = {(src, 0): 0}  # (node, stops) -> min cost
-        min_price = float('inf')
-        
-        while queue:
-            node, cost, stops = queue.popleft()
-            
-            # If destination reached, update min price
-            if node == dest:
-                min_price = min(min_price, cost)
+    def findCheapestPrice(self, n, flights, src, dst, k):
+        graph = {i : {} for i in range(n)}  # Assuming 0 based indexing
+        costs = {i: float('inf') for i in range(n)}
+        for v_from, v_to, price in flights:
+            graph[v_from][v_to] = price
+
+        bfs_q = deque()
+        bfs_q.append((0, 0, src))
+        min_cost = float('inf')
+        while bfs_q:
+            current_stops, current_cost, current_vertex = bfs_q.popleft()
+            if current_vertex == dst and current_cost < min_cost:
+                    min_cost = current_cost
+                    continue
+            if costs[current_vertex] <= current_cost:
                 continue
-            
-            if stops > k:
+            costs[current_vertex] = current_cost 
+            if current_stops > k:
                 continue
-            
-            for nei, price in graph[node].items():
-                new_cost = cost + price
-                if new_cost > min_price:
-                    continue 
-                
-                if (nei, stops + 1) not in best or new_cost < best[(nei, stops + 1)]:
-                    best[(nei, stops + 1)] = new_cost
-                    queue.append((nei, new_cost, stops + 1))
-        
-        return min_price if min_price != float('inf') else -1
+            for neighbor, price in graph[current_vertex].items():
+                new_stops, new_cost = current_stops + 1, current_cost + price
+                bfs_q.append((new_stops, new_cost, neighbor))
+
+        return min_cost if min_cost < float('inf') else -1	
