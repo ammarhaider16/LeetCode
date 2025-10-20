@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/ammarhaider16/LeetCode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ammarhaider16/LeetCode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0883-car-fleet](https://github.com/ammarhaider16/LeetCode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/ammarhaider16/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/ammarhaider16/LeetCode/tree/master/0948-sort-an-array) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/ammarhaider16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0792-binary-search](https://github.com/ammarhaider16/LeetCode/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/ammarhaider16/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/ammarhaider16/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Matrix
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ammarhaider16/LeetCode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ammarhaider16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/ammarhaider16/LeetCode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 ## Counting
 |  |
 | ------- |
@@ -229,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ammarhaider16/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ammarhaider16/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/ammarhaider16/LeetCode/tree/master/0948-sort-an-array) |
 ## Quickselect
@@ -289,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1285-balance-a-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 ## Bucket Sort
@@ -323,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ammarhaider16/LeetCode/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0695-max-area-of-island](https://github.com/ammarhaider16/LeetCode/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Graph
 |  |
