@@ -14,9 +14,10 @@ class LRUCache:
     def put(self, key: int, value: int) -> None:
         self.current_action_number += 1
         if key in self.cache:
-            self.cache[key] = [value, self.current_action_number]  
+            self.cache[key][0] = value
+            self.cache[key][1] = self.current_action_number 
             return
-        
+            
         if len(self.cache) == self.capacity:
             min_key, min_value = None, float('inf')
             for k, v in self.cache.items():
