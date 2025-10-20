@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1285-balance-a-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1285-balance-a-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -340,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/ammarhaider16/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/ammarhaider16/LeetCode/tree/master/1036-rotting-oranges) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/ammarhaider16/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Graph
 |  |
 | ------- |
