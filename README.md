@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ammarhaider16/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ammarhaider16/LeetCode/tree/master/0155-min-stack) |
 | [1023-time-based-key-value-store](https://github.com/ammarhaider16/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Math
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ammarhaider16/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/ammarhaider16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/ammarhaider16/LeetCode/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/ammarhaider16/LeetCode/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/ammarhaider16/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/ammarhaider16/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ammarhaider16/LeetCode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0146-lru-cache](https://github.com/ammarhaider16/LeetCode/tree/master/0146-lru-cache) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -359,4 +362,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ammarhaider16/LeetCode/tree/master/0287-find-the-duplicate-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ammarhaider16/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
