@@ -14,5 +14,4 @@ class Solution:
                 if s[i] == s[i+size-1] and (i+1, i+size-2) in valid:
                     count += 1
                     valid.add((i, i+size-1))
-                    valid.remove((i+1, i+size-2))
         return count
