@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ammarhaider16/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ammarhaider16/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0633-sum-of-square-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [0647-palindromic-substrings](https://github.com/ammarhaider16/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ammarhaider16/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Dynamic Programming
 |  |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ammarhaider16/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/ammarhaider16/LeetCode/tree/master/0494-target-sum) |
+| [0647-palindromic-substrings](https://github.com/ammarhaider16/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ammarhaider16/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1250-longest-common-subsequence](https://github.com/ammarhaider16/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Stack
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/ammarhaider16/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/ammarhaider16/LeetCode/tree/master/0022-generate-parentheses) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ammarhaider16/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0647-palindromic-substrings](https://github.com/ammarhaider16/LeetCode/tree/master/0647-palindromic-substrings) |
 | [1023-time-based-key-value-store](https://github.com/ammarhaider16/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/ammarhaider16/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Design
