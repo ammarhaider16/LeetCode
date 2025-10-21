@@ -1,10 +1,9 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        count, n = 0, len(s)
+        count, n = len(s), len(s)
         dp = [[False]*n for _ in range(n)]
         for i in range(n):
             dp[i][i] = True
-            count += 1
         for i in range(n-1):
             if s[i] == s[i+1]:
                 dp[i][i+1] = True
