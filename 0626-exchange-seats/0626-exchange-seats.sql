@@ -1,10 +1,12 @@
 # Write your MySQL query statement below
-WITH new_ids AS (
+WITH max_id AS (
+    SELECT MAX(id) as id FROM Seat
+), new_ids AS (
     SELECT id as current_id,
     student, 
     CASE
         WHEN id % 2 = 0 THEN id - 1
-        WHEN id = (SELECT MAX(id) as id FROM Seat) THEN id
+        WHEN id = (SELECT id FROM max_id) THEN id
         ELSE id+1 
     END AS new_id
     FROM Seat
