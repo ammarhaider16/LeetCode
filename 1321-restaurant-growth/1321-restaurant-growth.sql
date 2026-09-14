@@ -14,9 +14,10 @@ WITH daily_spending AS (
         ROUND(AVG(amount) OVER(
             ORDER BY visited_on 
             ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-        ), 2) AS average_amount
+        ), 2) AS average_amount,
+        ROW_NUMBER() OVER(ORDER BY visited_on) AS rn
     FROM daily_spending
     ORDER BY visited_on
 )
-SELECT * FROM moving_averages
-WHERE visited_on >= (SELECT MIN(visited_on) FROM Customer)+6;
+SELECT visited_on, amount, average_amount FROM moving_averages
+WHERE rn >= 7;
