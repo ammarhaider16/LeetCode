@@ -2,9 +2,9 @@
 
 WITH weights AS
 (
-    SELECT A.person_id, A.person_name, A.turn, 
-        (SELECT SUM(B.weight) FROM Queue B WHERE B.turn <= A.turn) as weight_after_boarding
-    FROM Queue A
+    SELECT person_name, turn,
+        SUM(weight) OVER (ORDER BY turn) AS weight_after_boarding
+    FROM Queue
 )
 SELECT person_name 
 FROM weights 
