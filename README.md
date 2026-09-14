@@ -410,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0180-consecutive-numbers](https://github.com/ammarhaider16/LeetCode/tree/master/0180-consecutive-numbers) |
+| [0185-department-top-three-salaries](https://github.com/ammarhaider16/LeetCode/tree/master/0185-department-top-three-salaries) |
 | [0550-game-play-analysis-iv](https://github.com/ammarhaider16/LeetCode/tree/master/0550-game-play-analysis-iv) |
 | [0626-exchange-seats](https://github.com/ammarhaider16/LeetCode/tree/master/0626-exchange-seats) |
 | [1045-customers-who-bought-all-products](https://github.com/ammarhaider16/LeetCode/tree/master/1045-customers-who-bought-all-products) |
