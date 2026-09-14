@@ -406,4 +406,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ammarhaider16/LeetCode/tree/master/0146-lru-cache) |
+## Database
+|  |
+| ------- |
+| [1934-confirmation-rate](https://github.com/ammarhaider16/LeetCode/tree/master/1934-confirmation-rate) |
 <!---LeetCode Topics End-->
