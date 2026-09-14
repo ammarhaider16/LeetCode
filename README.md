@@ -409,5 +409,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [1193-monthly-transactions-i](https://github.com/ammarhaider16/LeetCode/tree/master/1193-monthly-transactions-i) |
 | [1934-confirmation-rate](https://github.com/ammarhaider16/LeetCode/tree/master/1934-confirmation-rate) |
 <!---LeetCode Topics End-->
